@@ -1,0 +1,8 @@
+requests
+pyqrcode
+pypng
+wheel
+waitress
+setuptools
+flask
+requests_toolbelt
