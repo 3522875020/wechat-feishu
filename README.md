@@ -106,6 +106,6 @@
 该项目根据 MIT 许可证进行许可 - 详见 [LICENSE](LICENSE) 文件。
 
 ## 鸣谢
-
+* [WeChatPush](https://github.com/TSIOJeft/WeChatPush) - 一个基于itchat的微信消息接收端。
 * [itchat](https://github.com/littlecodersh/itchat) - 一个用于微信的 Python 库。
 * [Flask](https://flask.palletsprojects.com/) - 一个轻量级的 WSGI Web 应用程序框架。
