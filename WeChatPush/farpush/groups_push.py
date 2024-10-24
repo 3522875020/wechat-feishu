@@ -24,6 +24,9 @@ def initialize_database():
     conn.commit()
     conn.close()
 
+# Ensure this function is called before any database operations
+initialize_database()
+
 def get_chat_id_by_chatroomname(chatroom_name):
     db_file = 'database.db'
     conn = sqlite3.connect(db_file)
@@ -87,7 +90,6 @@ def main(chatroom_name, chatroom_id, message):
         print("无法获取有效的 chat_id，无法发送消息。")
 
 if __name__ == "__main__":
-    initialize_database()
     # 示例调用
     chatroom_name_input = input("请输入微信群名称: ")
     chatroom_id_input = input("请输入微信群ID: ")
