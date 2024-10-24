@@ -53,7 +53,7 @@
     ```bash
     python main.py
     ```
-2. 登录飞书开放平台![image](assets/image-20241024171059-tcp69fu.png)
+2. 登录飞书开放平台![image](2.png)
 3. 创建企业自建应用![image](assets/image-20241024171221-eonchgq.png)
 4. 进入权限管理开通aily:message:write
 
