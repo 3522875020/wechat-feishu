@@ -56,33 +56,32 @@
 2. 登录飞书开放平台
 3. 创建企业自建应用
 ![image](1.png)
-4. 进入权限管理开通aily:message:write
-
-    contact:user.employee:readonly
-    contact:user.employee_id:readonly
-    contact:user.id:readonly
-    event:ip_list
-    im:chat
-    im:chat:create
-    im:message
-    im:message:send_as_bot
-    im:resource
+4. 进入权限管理开通aily:message:write,
+    contact:user.employee:readonly,
+    contact:user.employee_id:readonly,
+    contact:user.id:readonly,
+    event:ip_list,
+    im:chat,
+    im:chat:create,
+    im:message,
+    im:message:send_as_bot,
+    im:resource,
     手机上审核通过
     ![image](2.png)
-5. 进入
+6. 进入
 ![image](3.png)
     复制App ID与App Secre，
-6. 点击https://open.feishu.cn/api-explorer/
+7. 点击https://open.feishu.cn/api-explorer/
 
     ![image](image.png)
     选择成员中选择自己复制
-7. 将所有参数填入itchat\config.py中
-8. 运行应用程序：
+8. 将所有参数填入itchat\config.py中
+9. 运行应用程序：
 
     ```bash
        python main.py
     ```
-9. 当提示时，使用微信应用扫描终端中显示的二维码以登录。
+10. 当提示时，使用微信应用扫描终端中显示的二维码以登录。
 
 
 ## 消息处理
