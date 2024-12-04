@@ -20,8 +20,8 @@
 1. 克隆仓库：
 
     ```bash
-    git clone https://github.com/yourusername/WeChatPush.git
-    cd WeChatPush
+    git clone https://github.com/3522875020/wechat-feishu.git
+    cd wechat-feishu
     ```
 2. 创建虚拟环境（可选但推荐）：
 
